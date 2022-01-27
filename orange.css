@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 600px; 
+    background-image: url(../week3/images/desktop/image-header.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+}
+nav{
+    display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;  
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0px 28px ;
+    align-items: center;
+}
+nav ul button{
+    border: 0;
+    padding: 12px;
+    border-radius: 14px;
+ font-weight: 700;
+
+}
+#haeder-titl{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.present{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}.present .texst{
+    margin: 100px;
+    
+}
+.present .texst h1{
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.present .texst p{
+    margin-top: 30px;
+}
+.present .texst h6{
+    margin-top: 30px;
+}
+.txt{
+padding: 16px;
+background-position: center;
+background-size: cover;
+  
+}
+.txt div{
+    text-align: center;
+    margin-top: 320px;
+    padding: 0 60px;
+} 
+.txt div p{
+    margin-top: 20px;
+}
+#first{
+    background-image: url(../week3/images/desktop/image-transform.jpg);
+}
+#secand{
+    background-image: url(../week3/images/desktop/image-graphic-design.jpg);
+}
+.team {
+    margin-top: 100px;
+}
+
+.team h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #c4c4c4;
+    letter-spacing: 5px;
+}
+#prt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.cart img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cart>p {
+    margin-top: 40px;
+    width: 80%;
+    text-align: center;
+}
+.cart>div {
+    margin-top: 40px;
+    text-align: center;
+}
+.cart>div>p {
+    margin-top: 12px;
+}
